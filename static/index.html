@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+    <title>Trackd</title>
+  </head>
+  <style>
+    .jumbotron-image {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+  </style>
+  <body>
+    <header id="nav"></header>
+    <div style="display:none;" class="wrapper">
+    <div style="background-image: url(https://www.antarestech.com/wp-content/uploads/2019/11/Landing-Page-Cover-Background.png);" class="jumbotron jumbotron-image text-center text-white">
+
+    <div class="jumbotron-content">
+      <div class=" container px-5">
+          <h1 class="title display-4 font-weight-normal mb-0">Is your location being tracked?</h1>
+          <a style="margin:10px" class="btn btn-primary btn-lg rounded-pill mt-5" href="/home">Find Out Now</a>
+          <a style="margin:10px" class="btn btn-danger btn-lg rounded-pill mt-5" href="https://www.expressvpn.com/unrestricted-1">Disable Tracking</a>
+
+      </div>
+  </div>
+</div>
+
+  <div class="container px-5">
+      <div class="row gx-5 align-items-center">
+          <div class="col-lg-6 order-lg-2">
+              <div class="p-5"><img class="img-fluid rounded-circle" src="https://uxwing.com/wp-content/themes/uxwing/download/17-internet-network-technology/radar-tracking.png" alt="..." /></div>
+          </div>
+          <div class="col-lg-6 order-lg-1">
+              <div class="p-5">
+                  <h2 class="display-4">Did you know...</h2>
+                  <p>the websites, apps, and tools that you connect to can see your device's location using trackers on your IP address. You can test it out yourself above.</p>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+<!-- Content section 2-->
+<section>
+  <div class="container px-5">
+      <div class="row gx-5 align-items-center">
+          <div class="col-lg-6">
+              <div class="p-5"><img class="img-fluid rounded-circle" src="https://static.vecteezy.com/system/protected/files/001/192/084/vecteezy_circle-dot-tunnel_1192084.png" alt="..." /></div>
+          </div>
+          <div class="col-lg-6">
+              <div class="p-5">
+                  <h2 class="display-4">Protect yourself...</h2>
+                  <p>By using VPN services when you connect to the internet, all your data traffic is sent through an encrypted virtual tunnel.</p>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+<!-- Content section 3-->
+<section>
+  <div class="container px-5">
+      <div class="row gx-5 align-items-center">
+          <div class="col-lg-6 order-lg-2">
+              <div class="p-5"><img class="img-fluid rounded-circle" src="https://upload.wikimedia.org/wikipedia/commons/3/34/ExpressVPN-logo.png" alt="..." /></div>
+          </div>
+          <div class="col-lg-6 order-lg-1">
+              <div class="p-5">
+                  <h2 class="display-4">Express VPN can help!</h2>
+                  <p>Use express VPN today to save big on protection against malicious actors online. ExpressVPN always puts your privacy first!</p>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+   
+  </body>
+</html>
+<script>
+  window.onload = function (){
+    $('.wrapper').fadeIn(700)
+  }
+  $(function () {
+    $("#nav").load("/navigation.html");
+  });
+</script>
